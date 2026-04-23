@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krieg Management</title>
+    <meta name="description" content="Krieg Management is a special situations alternative asset manager specializing in distressed secondary and lower middle-market private equity strategies.">
+    <link rel="icon" type="image/png" href="Assets/Favicon.png">
+    <link rel="shortcut icon" type="image/png" href="Assets/Favicon.png">
+    <link rel="apple-touch-icon" href="Assets/Favicon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+            color: #ffffff;
+            background-color: #0a1f44;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        footer {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background-color: #0a1f44;
+            color: #ffffff;
+            padding: 0 6vw 0;
+        }
+
+        .footer-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 5vh;
+            max-width: 800px;
+            margin: 0 auto;
+            flex: 1;
+            justify-content: flex-start;
+        }
+
+        .footer-main::before {
+            content: '';
+            flex: 3;
+        }
+
+        .footer-main::after {
+            content: '';
+            flex: 1;
+        }
+
+        .footer-logo img {
+            height: 56px;
+            width: auto;
+            display: block;
+        }
+
+        .firm-description {
+            font-size: 0.95rem;
+            line-height: 1.55;
+            color: rgba(255, 255, 255, 0.85);
+            font-style: italic;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            max-width: 600px;
+        }
+
+        .footer-address {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            letter-spacing: 0.3px;
+        }
+
+        .footer-address .office-label {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .footer-disclosures {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 0.7rem;
+            line-height: 1.35;
+            color: #cfd6e4;
+            padding: 22px 6vw 28px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            min-height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .footer-disclosures h4 {
+            font-size: 0.74rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .footer-disclosures p {
+            margin-bottom: 4px;
+        }
+
+        .footer-copy {
+            margin-top: 10px;
+            font-size: 0.7rem;
+            color: #ffffff;
+        }
+
+        @media (max-width: 480px) {
+            .firm-description { font-size: 0.85rem; }
+            .footer-disclosures { font-size: 0.65rem; line-height: 1.4; }
+        }
+    </style>
+</head>
+<body>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-logo">
+                <img src="Assets/Krieg%20Logo%20White.png" alt="Krieg Management">
+            </div>
+            <div class="firm-description">
+                Krieg Management is a special situations alternative asset manager specializing in distressed secondary and lower middle-market private equity strategies.
+            </div>
+            <div class="footer-address">
+                <div class="office-label">New York</div>
+                750 Lexington Avenue<br>
+                8th Floor<br>
+                New York, NY 10022
+            </div>
+        </div>
+
+        <div class="footer-disclosures">
+            <h4>Important Disclosures</h4>
+            <p>The information on this website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities or investment products. Any such offer or solicitation would be made only by means of a confidential private placement memorandum or similar offering documents to qualified accredited investors in jurisdictions where permitted.</p>
+            <p>Nothing on this site should be construed as investment, legal, tax, or financial advice. Prospective investors should consult their own professional advisers.</p>
+            <p>Krieg Management qualifies as an Exempt Reporting Adviser (&ldquo;ERA&rdquo;) with the U.S. Securities and Exchange Commission.</p>
+            <p class="footer-copy">&copy; 2026 Krieg Management, LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
